@@ -11,7 +11,7 @@ initializeWindow = do
     _ <- getArgsAndInitialize
     initialWindowSize  $= Size 800 600
     initialDisplayMode $= [DoubleBuffered]
-    createWindow "Asteroids - Haskell on Steroids"
+    createWindow "Asteroids"
 
 -- Inicializa os parametros do OpenGL
 initializeOpenGL = do

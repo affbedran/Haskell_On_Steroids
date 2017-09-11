@@ -19,7 +19,7 @@ initialGameState = GameState {
 
 -- Estado inicial da nave do jogador, no centro da tela
 initialPlayerState :: Player
-initialPlayerState = Player (400, 300)
+initialPlayerState = Player $ Body {bodyPos=(400, 300), bodyAngle=pi/4.0}
 
 -- Lista de todas as linhas que o GameState irá renderizar
 stateLines :: GameState -> [LineSegment]
