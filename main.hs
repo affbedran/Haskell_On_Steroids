@@ -1,5 +1,5 @@
-import Graphics.Rendering.OpenGL
-import Graphics.UI.GLUT
+import Modules.Initialize
+import Graphics.UI.GLUT (mainLoop)
 
 main = do
     initializeWindow
