@@ -2,6 +2,7 @@ module Modules.State (GameState(..), initialGameState,) where
 
 import Modules.Player
 import Modules.Geometry
+import Modules.Transform
 import Modules.Render (LineRenderable(..))
 
 -- Estrutura de dados que mantém o Estado de Jogo
