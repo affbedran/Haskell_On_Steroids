@@ -43,5 +43,5 @@ initializeCallbacks = do
     displayCallback $= render
 
 render = do
-    clear [ColorBuffers]
+    clear [ColorBuffer]
     swapBuffers
